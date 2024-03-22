@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Franklin:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+  font-family: "Libre Franklin", sans-serif;
+  box-sizing: border-box;
+}
+
+body {
+  text-align: center;
+  padding: 50px 0;
+}
+
+header {
+  padding: 20px 0;
+}
+
+#logo {
+  height: 20px;
+}
+
+main > p:first-of-type {
+  font-size: 1.7rem;
+}
+
+main > p:last-of-type {
+  font-size: 0.5rem;
+}
+
+main > p:first-of-type,
+footer > p {
+  color: hsl(0, 0%, 59%);
+}
+
+main > p:last-of-type,
+p > span {
+  color: hsl(209, 33%, 12%);
+}
+
+p > span {
+  font-weight: 700;
+}
+
+.subscribe {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 40px 0;
+}
+
+input,
+button,
+.icons {
+  border-radius: 50px;
+}
+
+input {
+  border: 1px solid hsl(223, 100%, 88%);
+  padding: 15px 70px;
+  margin-bottom: 10px;
+}
+
+button {
+  background-color: hsl(223, 87%, 63%);
+  border: none;
+  color: hsl(0, 0%, 100%);
+  padding: 18px 130px;
+}
+
+button:hover,
+.icons:hover {
+  cursor: pointer;
+}
+
+footer {
+  margin-top: 160px;
+}
+
+footer > p {
+  margin-top: 30px;
+  font-size: 0.75rem;
+}
+
+.icons {
+  border: 1px solid hsl(223, 100%, 88%);
+  color: hsl(223, 87%, 63%);
+  margin: 0 7.5px;
+  font-size: 20px;
+}
+
+.facebook-icon {
+  padding: 12px 15px;
+}
+
+.twitter-icon {
+  padding: 12px;
+}
+
+.instagram-icon {
+  padding: 12px 13px;
+}
+
+@media screen and (min-width: 1440px) {
+  .subscribe {
+    flex-direction: row;
+  }
+}
