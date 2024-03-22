@@ -26,7 +26,7 @@ Users should be able to:
 
 ### Links
 
-- Live Site URL: 
+- Live Site URL: https://pearlanyanwu.github.io/ping-coming-soon.github.io/
 
 ## My process
 
