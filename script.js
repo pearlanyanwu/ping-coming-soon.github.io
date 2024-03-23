@@ -6,6 +6,6 @@ submit.addEventListener("click", () => {
   if (email.value == "" || !regex.test(email.value)) {
     alert("Please provide a valid email address");
   } else {
-    alert("Thanks for ")
+    alert("Thanks for subscribing!");
   }
 });
