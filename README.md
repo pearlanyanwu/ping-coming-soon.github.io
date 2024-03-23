@@ -37,4 +37,4 @@ Users should be able to:
 
 ### Continued development
 
-Uploaded draft of mobile design first. If the quality is satifactory for me, I will begin the desktop design.
+Uploaded mobile design first.

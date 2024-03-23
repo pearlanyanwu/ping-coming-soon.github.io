@@ -7,101 +7,100 @@
 
 body {
   text-align: center;
-  padding: 50px 0;
+  padding: 50px 15px;
 }
 
 header {
-  padding: 20px 0;
+  margin-bottom: 50px;
 }
 
-#logo {
+#ping-logo {
   height: 20px;
 }
 
-main > p:first-of-type {
-  font-size: 1.7rem;
+main > p,
+h2 > span {
+  color: hsl(209, 33%, 12%);
 }
 
-main > p:last-of-type {
-  font-size: 0.5rem;
+h2 {
+  font-size: 1.8rem;
+  font-weight: 300;
 }
 
-main > p:first-of-type,
+h2,
 footer > p {
   color: hsl(0, 0%, 59%);
 }
 
-main > p:last-of-type,
-p > span {
-  color: hsl(209, 33%, 12%);
-}
-
-p > span {
+h2 > span {
   font-weight: 700;
 }
 
 .subscribe {
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  margin: 40px 0;
+  gap: 15px;
+  margin-top: 50px;
 }
 
 input,
-button,
-.icons {
+button {
+  width: 100%;
   border-radius: 50px;
+  padding: 20px 0;
 }
 
 input {
-  border: 1px solid hsl(223, 100%, 88%);
-  padding: 15px 70px;
-  margin-bottom: 10px;
+  border: 2px solid hsl(223, 100%, 88%);
+}
+
+input::placeholder {
+  color: hsl(223, 100%, 88%);
+}
+
+input,
+input::placeholder {
+  text-indent: 2.5em;
 }
 
 button {
   background-color: hsl(223, 87%, 63%);
-  border: none;
   color: hsl(0, 0%, 100%);
-  padding: 18px 130px;
+  border-style: none;
 }
 
-button:hover,
-.icons:hover {
+button:hover {
   cursor: pointer;
 }
 
-footer {
-  margin-top: 160px;
-}
-
-footer > p {
-  margin-top: 30px;
-  font-size: 0.75rem;
+#dashboard-img {
+  margin: 75px 0;
 }
 
 .icons {
   border: 1px solid hsl(223, 100%, 88%);
   color: hsl(223, 87%, 63%);
-  margin: 0 7.5px;
-  font-size: 20px;
+  border-radius: 50%;
+  margin: 0 5px;
 }
 
 .facebook-icon {
-  padding: 12px 15px;
+  padding: 10px 13px;
 }
 
 .twitter-icon {
-  padding: 12px;
+  padding: 10px;
 }
 
 .instagram-icon {
-  padding: 12px 13px;
+  padding: 10px 12px;
 }
 
-@media screen and (min-width: 1440px) {
-  .subscribe {
-    flex-direction: row;
-  }
+footer {
+  margin: 20px 0;
+}
+
+footer > p {
+  margin-top: 40px;
 }
