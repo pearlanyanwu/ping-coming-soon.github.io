@@ -37,4 +37,4 @@ Users should be able to:
 
 ### Continued development
 
-Uploaded mobile design first.
+I will add the error state in the near future.
